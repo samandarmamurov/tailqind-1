@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> tailwindcss</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <div class="max-w-300 mx-auto mt-20 px-5">
+      <div
+        class="flex flex-col md:flex-row bg-[#1B1937] rounded-xl overflow-hidden"
+      >
+        <div class="text-white p-10 md:w-1/2">
+          <h1 class="text-4xl font-bold mb-6">
+            Get <span class="text-[#AB5CDB]">insights</span>
+            that help your business grow.
+          </h1>
+
+          <p class="text-gray-300 mb-12">
+            Discover the benefits of data analytics and make <br />
+            better decisions regarding revenue, customer <br />
+            experience, and overall efficiency.
+          </p>
+
+          <ul class="flex flex-col md:flex-row gap-10">
+            <li>
+              <h2 class="text-2xl font-bold">10k+</h2>
+              <p class="text-gray-400">Companies</p>
+            </li>
+
+            <li>
+              <h2 class="text-2xl font-bold">314</h2>
+              <p class="text-gray-400">Templates</p>
+            </li>
+
+            <li>
+              <h2 class="text-2xl font-bold">12M+</h2>
+              <p class="text-gray-400">Queries</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="md:w-1/2">
+          <img
+            src="./img/Bitmap.png"
+            class="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
